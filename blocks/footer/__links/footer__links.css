@@ -1,0 +1,8 @@
+.footer__links {
+  list-style: none;
+  margin-right: 18px;
+}
+
+.footer__links:last-child {
+  margin-right: 0;
+}
