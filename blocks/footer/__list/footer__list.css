@@ -4,3 +4,16 @@
   margin: 0;
 }
 
+@media (max-width: 720px) {
+  .footer__list {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .footer__list {
+    flex-direction: column;
+  }
+}

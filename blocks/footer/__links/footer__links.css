@@ -6,3 +6,19 @@
 .footer__links:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 720px) {
+  .footer__links {
+    margin-bottom: 24px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .footer__links {
+    margin-bottom: 32px;
+  }
+  .footer__links:last-child {
+    margin-bottom: 0;
+  }
+}

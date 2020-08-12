@@ -9,3 +9,25 @@
   margin-bottom: 64px;
 }
 
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 700px) {
+  .lead__subtitle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,11 +1,41 @@
 .place {
   margin: 80px auto;
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   grid-template-rows: auto;
   gap: 48px 40px;
   grid-template-areas:
   "title website"
-  "image paragraph"
+  "image paragraph";
+}
 
+
+@media (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    margin: 72px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .place {
+    grid-template-areas:
+    "title"
+    "image"
+    "paragraph";
+  }
+}
+
+@media (max-width: 425px) {
+  .place {
+    gap: 32px;
+    margin: 48px auto;
+  }
 }

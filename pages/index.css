@@ -4,8 +4,10 @@
 /*fonts*/
 @import url(../fonts/inter.css);
 
-/*page*/
+/*root*/
 @import url(../blocks/root/root.css);
+
+/*page*/
 @import url(../blocks/page/page.css);
 
 /*header*/
@@ -37,6 +39,8 @@
 
 /*plases*/
 @import url(../blocks/places/places.css);
+
+/*place*/
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);

@@ -3,4 +3,25 @@
   display: flex;
   justify-content: space-between;
   margin: 92px auto 24px;
+  padding: 0 48px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    margin-top: 64px;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+
+
+

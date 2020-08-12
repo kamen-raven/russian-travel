@@ -5,12 +5,12 @@
   background-size: contain;
   padding-bottom: 62.5%;
   margin: auto;
-  text-decoration: none;
-  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 

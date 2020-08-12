@@ -1,6 +1,4 @@
 .intro__body {
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  margin: 0;
 }
