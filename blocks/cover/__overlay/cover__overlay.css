@@ -1,7 +1,9 @@
 .cover__overlay::before {
   content: '';
   background: #2A2C2F;
+  background-position: center;
   opacity: .3;
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -13,3 +15,6 @@
   content: '';
   opacity: .8;
 }
+
+
+
