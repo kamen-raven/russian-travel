@@ -1,5 +1,5 @@
 .place__link {
-  /*grid-area: website;*/
+  grid-area: website;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -10,5 +10,5 @@
 
 .place__link:hover {
   opacity: 80%;
-  transition: opacity .3s ease-in;
+  transition: opacity .3s linear;
 }
